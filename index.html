@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Confirmação de Presença - Aniversário Alice</title>
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Decorações flutuantes de fundo -->
+  <div class="deco-fixed">🌸</div>
+  <div class="deco-fixed">🎀</div>
+  <div class="deco-fixed">🍒</div>
+  <div class="deco-fixed">✨</div>
+  <div class="deco-fixed">🌷</div>
+  <div class="deco-fixed">🎂</div>
+
+  <div class="card">
+
+    <div class="card-top-deco">🌸 🎉 🌸</div>
+
+    <div class="hero-number">20</div>
+    <div class="hero-name">ALICE</div>
+
+    <div class="festa-badge">
+      <span>🎀 Festa do Rosa 🎀</span>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="event-info">
+      <div class="info-row">
+        <span class="info-icon">📅</span>
+        <span>9 de Maio</span>
+        <div class="info-divider-h"></div>
+        <span class="info-icon">🕗</span>
+        <span>20:00</span>
+      </div>
+      <div class="info-row">
+        <span class="info-icon">📍</span>
+        <span>QE 8 Conjunto B, Casa 55 - Guará 1</span>
+      </div>
+      <div class="info-row">
+        <span class="info-icon">🩷</span>
+        <span>Use roupa rosa ou branca!</span>
+      </div>
+    </div>
+
+    <!-- Formulário -->
+    <div class="form-section">
+      <label class="field-label" for="nome">Seu nome</label>
+      <input class="field-input" type="text" id="nome" placeholder="Como você se chama?" autocomplete="given-name" />
+    </div>
+
+    <div class="question-row">
+      <span class="question-text">Vai levar alguém com você?</span>
+      <select class="field-select" id="extra-select">
+        <option value="nao">Não</option>
+        <option value="sim">Sim</option>
+      </select>
+    </div>
+
+    <div class="extra-section" id="extra-section">
+      <div class="alert-box">
+        <span class="alert-icon">⚠️</span>
+        <span class="alert-text">
+          Antes de confirmar, certifique-se de que o convidado extra já foi comunicado à <strong>Alice</strong>! Por questão de logística, é importante alinhar antes. 🥰
+        </span>
+      </div>
+      <div class="form-section">
+        <label class="field-label" for="extra-nome">Nome do convidado extra</label>
+        <input class="field-input" type="text" id="extra-nome" placeholder="Quem virá com você?" />
+      </div>
+    </div>
+
+    <button class="confirm-btn" id="confirm-btn">
+      Confirmar Presença 🌸
+    </button>
+
+    <div class="error-msg" id="error-msg">
+      Ocorreu um erro ao confirmar. Tente novamente!
+    </div>
+
+    <div class="success-msg" id="success-msg">
+      <div class="success-icon">🎀</div>
+      <div class="success-text">
+        <strong>Confirmado!</strong><br/>
+        Não esquece: roupa rosa ou branca 🌸<br/>
+        Esperamos por você!
+      </div>
+    </div>
+
+    <div class="card-footer">✨ &nbsp; Com amor, Alice &nbsp; ✨</div>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
