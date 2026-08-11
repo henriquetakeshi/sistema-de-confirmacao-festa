@@ -1,8 +1,3 @@
-/* =====================================================
-   script.js — Confirmação de Presença - Festa da Alice
-   ===================================================== */
-
-// ⚠️ SUBSTITUA PELA URL DO SEU GOOGLE APPS SCRIPT:
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxbAJ-YPGpq7g4ECtp8KgmnBIw_9Xh1YaS5zc9YqsF8Bgam60TrhCjGMSrnS3lRZRAljA/exec";
 
 // ---- Referências aos elementos ----
